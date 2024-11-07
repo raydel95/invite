@@ -471,12 +471,14 @@ body {
 	margin-bottom: 40px;
 }
 
-.divblock {
-  display: inline-block;
-  line-height: 1;
-  padding: 20px;
-  font-size: 40px;
-}
+#timer {
+	display: flex;
+	gap: 10px; /* Adjust spacing between elements as needed */
+  }
+  
+  #timer > div {
+	display: inline-block;
+  }
 
 span {
   display: block;
