@@ -513,22 +513,6 @@ body {
 	color: #fff;
 }
 
-.days {
-	background: linear-gradient(90deg, #b33a46, #9b313c);
-}
-
-.hours {
-	background: linear-gradient(90deg, #a7c3cd, #90a9b2);
-}
-
-.minutes {
-	background-color: #874562;
-}
-
-.seconds {
-	background-color: #145689;
-}
-
 .date {
 	color: #a4af9e;
 	font-weight: 900;
@@ -546,9 +530,7 @@ body {
 	margin: 24px;
 }
 
-.phone {
-	color: #874562
-}
+
 
 .end-msg {
 	width: auto;
@@ -566,16 +548,14 @@ a {
 }
 
 .happiness {
-	color: #874562;
+	color: #564861;
 	font-size: 24px;
 	font-weight: bold;
 	text-align: center;
 	margin-bottom: 24px;
 }
 
-.twitter {
-	color: #874562;
-}
+
 
 .music {
 	display: none;
