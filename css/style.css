@@ -364,8 +364,9 @@ body {
 }
 
 img {
-	max-width: 100%;
+	width: auto;
 	height: auto;
+	max-width: 350px;
 }
 
 @media (max-width:900px) {
