@@ -587,7 +587,7 @@ a {
 
 
 .timeline {
-	width:800px;
+	width:600px;
 	height: 20px;
 	list-style: none;
 	text-align: justify;
@@ -606,7 +606,7 @@ a {
 	text-align: center;
 	line-height: 1.2;
 	position: relative;
-	border-radius: 50%;
+	border-radius: 20%;
 }
 
 .timeline li:before {
