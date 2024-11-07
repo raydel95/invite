@@ -600,13 +600,13 @@ a {
 
 .timeline li {
 	display: inline-block;
-	width: 20px;
-	height: 20px;
+	width: 10px;
+	height: 10px;
 	background: #7f877a;
 	text-align: center;
 	line-height: 1.2;
 	position: relative;
-	border-radius: 20%;
+	border-radius: 50%;
 }
 
 .timeline li:before {
