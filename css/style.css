@@ -648,8 +648,6 @@ a {
 	display: flex;
 	justify-content: center; /* Center the entire container horizontally */
 	align-items: center;
-	width: 100vw;
-	height: 100vh; /* Centers vertically by filling the viewport height */
 	text-align: center;
  }
  .dress-code-title {
