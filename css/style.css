@@ -480,24 +480,24 @@ body {
 
 span {
   display: block;
-  font-size: 20px;
+  font-size: 10px;
   color: #000000;
 }
 
 #days {
-  font-size: 100px;
+  font-size: 45px;
   color: #959e90;
 }
 #hours {
-  font-size: 100px;
+  font-size: 45px;
   color: #959e90;
 }
 #minutes {
-  font-size: 100px;
+  font-size: 45px;
   color: #959e90;
 }
 #seconds {
-  font-size: 50px;
+  font-size: 30px;
   color: #000000;
 }
 
