@@ -651,8 +651,6 @@ a {
 	display: flex;
 	justify-content: center; /* Center the entire container horizontally */
 	align-items: center;
-	width: 100vw;
-	height: 100vh; /* Centers vertically by filling the viewport height */
 	text-align: center;
  }
  
@@ -681,7 +679,7 @@ a {
 	margin: 0; /* Remove default margin for alignment */
 	min-height: 20px; /* Set minimum height for consistent text alignment */
  }
- 
+
  @media (max-width: 600px) {
 	.dress-code-item img {
 	   width: 100px; /* Reduce size on smaller screens */
