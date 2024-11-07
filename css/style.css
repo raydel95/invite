@@ -644,34 +644,47 @@ a {
 	margin-bottom: -10px;
 	transform: translate(-50%, 100%);
 }
-.dress-code-container {
+
+
+
+ .dress-code-container {
 	display: flex;
 	justify-content: center; /* Center the entire container horizontally */
 	align-items: center;
+	width: 100vw;
+	height: 100vh; /* Centers vertically by filling the viewport height */
 	text-align: center;
  }
- .dress-code-title {
-	font-size: 1.5em;
-	font-weight: bold;
- }
  
-
  .dress-code-content {
 	display: flex;
-	justify-content: center; /* Centers the images horizontally */
-	gap: 20px; /* Adjust spacing between images */
+	justify-content: center; /* Center the items horizontally within the container */
+	gap: 40px; /* Adjust spacing between items */
 	align-items: center;
  }
  
- .dress-code-content img {
-	width: 50%; /* Reduce image size to half */
-	max-width: 200px; /* Set a maximum width */
-	height: auto; /* Maintain aspect ratio */
+ .dress-code-item {
+	display: flex;
+	flex-direction: column; /* Stack image and text vertically */
+	align-items: center; /* Center align both image and text */
+	text-align: center;
+ }
+ 
+ .dress-code-item img {
+	width: 150px; /* Set a fixed width */
+	height: 200px; /* Set a fixed height to ensure uniform size */
+	object-fit: cover; /* Ensures the image fills the set dimensions */
+	margin-bottom: 10px; /* Add space between image and text */
+ }
+ 
+ .dress-code-item p {
+	margin: 0; /* Remove default margin for alignment */
+	min-height: 20px; /* Set minimum height for consistent text alignment */
  }
  
  @media (max-width: 600px) {
-	.dress-code-content img {
-	   width: 100%; /* Adjust for smaller screens */
-	   max-width: 120px; /* Further reduce size on mobile */
+	.dress-code-item img {
+	   width: 100px; /* Reduce size on smaller screens */
+	   height: 130px;
 	}
  }
