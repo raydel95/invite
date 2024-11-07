@@ -36,10 +36,10 @@ var x = setInterval(function() {
     if (seconds < "10") { seconds = "0" + seconds; }
 
 
-    $("#days").html(days + "D:");
-    $("#hours").html(hours + "H:");
-    $("#minutes").html(minutes + "M:");
-    $("#seconds").html(seconds + "S");	
+    $("#days").html(days + " días");
+    $("#hours").html(hours + " horas");
+    $("#minutes").html(minutes + " minutos");
+    $("#seconds").html(seconds + " segundos");	
     // If the count down is over, write some text 
 
 }, 1000);
