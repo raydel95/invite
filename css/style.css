@@ -480,12 +480,6 @@ body {
 	display: inline-block;
   }
 
-span {
-  display: block;
-  font-size: 20px;
-  color: #000000;
-}
-
 #days {
   font-size: 45px;
   color: #959e90;
@@ -500,7 +494,7 @@ span {
 }
 #seconds {
   font-size: 45px;
-  color: #000000;
+  color: #959e90;
 }
 
 .venue {
