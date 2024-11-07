@@ -353,7 +353,7 @@
 }
 
 .sakura {
-	background: #674ea7;
+	background: #8a9b86;
 }
 
 
@@ -394,7 +394,7 @@ img {
 	font-style: normal;
 	font-size: 60px;
 	margin: 32px 0;
-	color: #674ea7;
+	color: #000000b4;
 }
 
 .title h2 {
@@ -404,7 +404,7 @@ img {
 	margin: 0;
 	padding: 0;
 	font-size: 24px;
-	color: #e25c67;
+	color: #a4af9e;
 	line-height: 1;
 }
 
@@ -413,7 +413,7 @@ img {
 	font-weight: bolder;
 	font-style: normal;
 	font-size: 32px;
-	color: #674ea7;
+	color: #000000b4;
 	margin: 16px;
 	text-align: center;
 }
@@ -423,7 +423,7 @@ img {
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	font-size: 24px;
-	color: #674ea7;
+	color: #000000;
 	margin-top: 5px;
 }
 
@@ -483,7 +483,7 @@ body {
 .venue {
 	width: auto;
 	height: auto;
-	background-color: #674ea7;
+	background-color: #a4af9e;
 	border-radius: 16px;
 	text-align: center;
 	color: #fff;
@@ -530,12 +530,12 @@ body {
 }
 
 .date {
-	color: #874562;
+	color: #a4af9e;
 	font-weight: 900;
 }
 
 .place {
-	color: #874562;
+	color: #a4af9e;
 	font-weight: 900;
 }
 
