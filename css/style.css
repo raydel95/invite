@@ -471,13 +471,34 @@ body {
 	margin-bottom: 40px;
 }
 
-#time {
-	width: auto;
-	height: auto;
-	padding: 20px;
-	background-color: #eee;
-	border-radius: 20px;
-	font-size: 16px;
+.divblock {
+  display: inline-block;
+  line-height: 1;
+  padding: 20px;
+  font-size: 40px;
+}
+
+span {
+  display: block;
+  font-size: 20px;
+  color: white;
+}
+
+#days {
+  font-size: 100px;
+  color: #959e90;
+}
+#hours {
+  font-size: 100px;
+  color: #959e90;
+}
+#minutes {
+  font-size: 100px;
+  color: #959e90;
+}
+#seconds {
+  font-size: 50px;
+  color: #000000;
 }
 
 .venue {
