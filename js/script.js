@@ -11,6 +11,7 @@ var endTime = new Date("Nov 29, 2024 17:00:00").getTime();
 var x = setInterval(function() {
 
     // Get todays date and time
+    var endTime = new Date("29 November 2024 17:00:00 GMT+06:00");	
     endTime = (Date.parse(endTime) / 1000);
 
     var now = new Date();
