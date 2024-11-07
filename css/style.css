@@ -655,26 +655,23 @@ a {
 	font-weight: bold;
  }
  
- .dress-code-content {
-	display: flex;
-	gap: 10px; /* Ajusta el espacio entre cada párrafo */
- }
 
  .dress-code-content {
 	display: flex;
+	justify-content: center; /* Centers the images horizontally */
 	gap: 20px; /* Adjust spacing between images */
 	align-items: center;
  }
  
  .dress-code-content img {
 	width: 50%; /* Reduce image size to half */
-	max-width: 100px; /* Set a maximum width for smaller screens */
+	max-width: 200px; /* Set a maximum width */
 	height: auto; /* Maintain aspect ratio */
  }
  
  @media (max-width: 600px) {
 	.dress-code-content img {
 	   width: 100%; /* Adjust for smaller screens */
-	   max-width: 60px; /* Further reduce size on mobile */
+	   max-width: 120px; /* Further reduce size on mobile */
 	}
  }
