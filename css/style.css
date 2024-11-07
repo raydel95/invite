@@ -651,7 +651,6 @@ a {
 	display: flex;
 	justify-content: center; /* Center the entire container horizontally */
 	align-items: center;
-	padding-left: 40px,
 	text-align: center;
  }
  
@@ -659,6 +658,7 @@ a {
 	display: flex;
 	justify-content: center; /* Center the items horizontally within the container */
 	gap: 40px; /* Adjust spacing between items */
+	padding-left: 40px;
 	align-items: center;
  }
  
