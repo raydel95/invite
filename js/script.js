@@ -16,25 +16,32 @@ var x = setInterval(function() {
     now = (Date.parse(now) / 1000);
 
     var timeLeft = endTime - now;
+    if(timeLeft > 0)
+    {
 
     var days = Math.floor(timeLeft / 86400); 
     var hours = Math.floor((timeLeft - (days * 86400)) / 3600);
     var minutes = Math.floor((timeLeft - (days * 86400) - (hours * 3600 )) / 60);
     var seconds = Math.floor((timeLeft - (days * 86400) - (hours * 3600) - (minutes * 60)));
-
+    }
+    else
+    {
+        var days = 0;
+        var hours = 0;
+        var minutes = 0;
+        var seconds = 0;
+    }
     if (hours < "10") { hours = "0" + hours; }
     if (minutes < "10") { minutes = "0" + minutes; }
     if (seconds < "10") { seconds = "0" + seconds; }
 
-    $("#days").html(days + "<span>Días</span>");
-    $("#hours").html(hours + "<span>Horas</span>");
-    $("#minutes").html(minutes + "<span>Minutos</span>");
-    $("#seconds").html(seconds + "<span>Segundos</span>");	
+
+    $("#days").html(days + "Días ");
+    $("#hours").html(hours + "Horas ");
+    $("#minutes").html(minutes + "Minutos ");
+    $("#seconds").html(seconds + "Segundos");	
     // If the count down is over, write some text 
-    if (distance < 0) {
-        clearInterval(x);
-        document.getElementById("time").innerHTML = "Es ahora!";
-    }
+
 }, 1000);
 
 // being a bit cool :p  
