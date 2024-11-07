@@ -482,7 +482,7 @@ body {
 
 span {
   display: block;
-  font-size: 10px;
+  font-size: 20px;
   color: #000000;
 }
 
@@ -499,7 +499,7 @@ span {
   color: #959e90;
 }
 #seconds {
-  font-size: 30px;
+  font-size: 45px;
   color: #000000;
 }
 
