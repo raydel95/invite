@@ -644,3 +644,18 @@ a {
 	margin-bottom: -10px;
 	transform: translate(-50%, 100%);
 }
+.dress-code-container {
+	display: flex;
+	align-items: center;
+	gap: 20px; /* Ajusta el espacio entre el título y el contenido */
+ }
+ 
+ .dress-code-title {
+	font-size: 1.5em;
+	font-weight: bold;
+ }
+ 
+ .dress-code-content {
+	display: flex;
+	gap: 10px; /* Ajusta el espacio entre cada párrafo */
+ }
