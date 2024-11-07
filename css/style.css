@@ -670,8 +670,8 @@ a {
  }
  
  .dress-code-item img {
-	width: 100px; /* Set a fixed width */
-	height: 100px; /* Set a fixed height to ensure uniform size */
+	width: 70px; /* Set a fixed width */
+	height: 70px; /* Set a fixed height to ensure uniform size */
 	object-fit: cover; /* Ensures the image fills the set dimensions */
 	margin-bottom: 10px; /* Add space between image and text */
 	max-width: 100%;
