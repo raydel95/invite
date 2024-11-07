@@ -646,10 +646,12 @@ a {
 }
 .dress-code-container {
 	display: flex;
+	justify-content: center; /* Center the entire container horizontally */
 	align-items: center;
-	gap: 20px; /* Ajusta el espacio entre el título y el contenido */
+	width: 100vw;
+	height: 100vh; /* Centers vertically by filling the viewport height */
+	text-align: center;
  }
- 
  .dress-code-title {
 	font-size: 1.5em;
 	font-weight: bold;
