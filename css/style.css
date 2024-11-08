@@ -683,5 +683,6 @@ a {
  }
 
  .centered-text {
+	font-size: 8px;
 	text-align: center; /* Center the text */
  }
