@@ -682,3 +682,6 @@ a {
 	min-height: 20px; /* Set minimum height for consistent text alignment */
  }
 
+ .centered-text {
+	text-align: center; /* Center the text */
+ }
